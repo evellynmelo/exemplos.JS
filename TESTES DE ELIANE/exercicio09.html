@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> Exercicio 09</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <script>
+
+/*Elaborar um programa que leia o valor de um jantar. Calcule e informe o
+valor da taxa do garçom (10%) e o valor total a ser pago.
+Vamos avançar um pouco. Neste e nos demais exercícios, vamos
+apresentar um exemplo de possíveis dados de entrada e dos respectivos
+dados de saída exibidos pelo programa (e deixar para você enumerar as
+etapas).
+Exemplo 1.9 – Cálculo do valor do jantar
+*/
+// lê o valor do jantar
+var jantar = Number(prompt("Valor do Jantar R$: "));
+// calcula os dados
+var garcom = jantar * 0.10;
+var total = jantar + garcom; // outra forma de relizar esse calculo>> var total = jantar + (jantar * 0.10);  ou então,
+//var total = jantar * 1.10;
+// apresenta as respostas
+alert("Taxa Garçom R$: " + garcom.toFixed(2) + "\nTotal R$: " + 
+total.toFixed(2));
+    </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo do Jantar</title>
+</head>
+<body>
+    <script>
+        //Programe qual o valor de um jantar.Calcule e informe o valor da taxa do garcom(10%)e o valor total a ser pago.
+           
+        //Entrada:ler valor do jantar
+           var jantar=Number(prompt("valor do jantar:"));
+            //Processamento:calcular jantar+taxa do garcom
+            var garcom=0.10;
+            //saida:informe resultados
+            var total=(jantar/100 )*garcom + jantar;
+            
+            alert("o total do jantar e:R$" + total.toFixed(2));
+           
+    </script>
+</body>
+</html>
